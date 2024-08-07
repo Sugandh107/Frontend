@@ -1,0 +1,183 @@
+[
+  {
+    "_id": "1",
+    "name": "Aloo Tikki Burger",
+    "image": "/images/recipes/Aloo_Tikki.png",
+    "category": "Burger",
+    "price": 79
+  },
+  {
+    "_id": "2",
+    "name": "Maharaja Burger",
+    "image": "/images/recipes/Maharaja_Burger.png",
+    "category": "Burger",
+    "price": 299
+  },
+  {
+    "_id": "3",
+    "name": "Crispy Bacon Burger",
+    "image": "/images/recipes/Crispy Bacon Burger.png",
+    "category": "Burger",
+    "price": 249
+  },
+  {
+    "_id": "4",
+    "name": "Double Patty Burger",
+    "image": "/images/recipes/Double_Patty.png",
+    "category": "Burger",
+    "price": 279
+  },
+  {
+    "_id": "5",
+    "name": "BBQ Ranch Burger",
+    "image": "/images/recipes/BBQ_Ranch_Burger.png",
+    "category": "Burger",
+    "price": 289
+  },
+  {
+    "_id": "6",
+    "name": "Chicken Tikka Burger",
+    "image": "/images/recipes/Chicken_Tikka.png",
+    "category": "Burger",
+    "price": 159
+  },
+  {
+    "_id": "7",
+    "name": "Fish Fillet Burger",
+    "image": "/images/recipes/Fish Fillet Burger.jpg",
+    "category": "Burger",
+    "price": 179
+  },
+  {
+    "_id": "8",
+    "name": "Corn And Cheese",
+    "image": "/images/recipes/Corn And Cheese.jpg",
+    "category": "pizza",
+    "price": 99
+  },
+  {
+    "_id": "9",
+    "name": "BBQ Chicken Pizza",
+    "image": "/images/recipes/BBQ Chicken Pizza.jpg",
+    "category": "pizza",
+    "price": 299
+  },
+  {
+    "_id": "10",
+    "name": "Classic Veg Pizza",
+    "image": "/images/recipes/Classic Veg Pizza.jfif",
+    "category": "pizza",
+    "price": 129
+  },
+  {
+    "_id": "11",
+    "name": "Mushroom Pizza",
+    "image": "/images/recipes/Mushroom Pizza.jpg",
+    "category": "pizza",
+    "price": 199
+  },
+  {
+    "_id": "12",
+    "name": "Pepperoni Pizza",
+    "image": "/images/recipes/Pepperoni Pizza.jpg",
+    "category": "pizza",
+    "price": 249
+  },
+  {
+    "_id": "13",
+    "name": "Tandoori Pizza",
+    "image": "/images/recipes/Tandoori Pizza.png",
+    "category": "pizza",
+    "price": 269
+  },
+  {
+    "_id": "14",
+    "name": "Veg Overloaded Pizza",
+    "image": "/images/recipes/Veg Overloaded Pizza.png",
+    "category": "pizza",
+    "price": 249
+  },
+  {
+    "_id": "15",
+    "name": "Espresso",
+    "image": "/images/recipes/Espresso.png",
+    "category": "drinks",
+    "price": 139
+  },
+  {
+    "_id": "16",
+    "name": "Cappuccino",
+    "image": "/images/recipes/Cappuccino.png",
+    "category": "drinks",
+    "price": 159
+  },
+  {
+    "_id": "17",
+    "name": "RedBull",
+    "image": "/images/recipes/RedBull.png",
+    "category": "drinks",
+    "price": 129
+  },
+  {
+    "_id": "18",
+    "name": "Sprite",
+    "image": "/images/recipes/Sprite.png",
+    "category": "drinks",
+    "price": 60
+  },
+  {
+    "_id": "19",
+    "name": "Coke",
+    "image": "/images/recipes/Coke.png",
+    "category": "drinks",
+    "price": 60
+  },
+  {
+    "_id": "20",
+    "name": "Mirinda",
+    "image": "/images/recipes/Mirinda.png",
+    "category": "drinks",
+    "price": 60
+  },
+  {
+    "_id": "21",
+    "name": "Chicken Tikka Burger",
+    "image": "/images/recipes/Chicken_Tikka.png",
+    "category": "popular",
+    "price": 159
+  },{
+    "_id": "22",
+    "name": "Crispy Bacon Burger",
+    "image": "/images/recipes/Crispy Bacon Burger.png",
+    "category": "popular",
+    "price": 249
+  },
+  {
+    "_id": "23",
+    "name": "Veg Overloaded Pizza",
+    "image": "/images/recipes/Veg Overloaded Pizza.png",
+    "category": "popular",
+    "price": 249
+  },
+  {
+    "_id": "24",
+    "name": "Tandoori Pizza",
+    "image": "/images/recipes/Tandoori Pizza.png",
+    "category": "popular",
+    "price": 269
+  },
+  {
+    "_id": "25",
+    "name": "Cappuccino",
+    "image": "/images/recipes/Cappuccino.png",
+    "category": "popular",
+    "price": 159
+  },
+  {
+    "_id": "26",
+    "name": "RedBull",
+    "image": "/images/recipes/RedBull.png",
+    "category": "popular",
+    "price": 129
+  }
+]
