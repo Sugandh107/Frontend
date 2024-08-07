@@ -35,7 +35,7 @@ function Cartpage() {
       confirmButtonText: "Yes, delete it!",
     }).then((result) => {
       if (result.isConfirmed) {
-        fetch(`https://backend-2bj9.onrender.com//cart/${item._id}`, {
+        fetch(`https://backend-2bj9.onrender.com/cart/${item._id}`, {
           method: "DELETE",
         })
           .then((res) => res.json())
@@ -58,7 +58,7 @@ function Cartpage() {
 
   const handleMinus = (item) => {
     if (item.quantity > 1) {
-      fetch(`https://backend-2bj9.onrender.com//cart/${item._id}`, {
+      fetch(`https://backend-2bj9.onrender.com/cart/${item._id}`, {
         method: "PUT",
         headers: {
           "Content-type": "application/json; charset=UTF-8",
@@ -80,7 +80,7 @@ function Cartpage() {
   };
 
   const handlePlus = (item) => {
-    fetch(`https://backend-2bj9.onrender.com//cart/${item._id}`, {
+    fetch(`https://backend-2bj9.onrender.com/cart/${item._id}`, {
       method: "PUT",
       headers: {
         "Content-type": "application/json; charset=UTF-8",
@@ -113,7 +113,7 @@ function Cartpage() {
     e.preventDefault();
 
     // Request to create an order
-    const response = await fetch("https://backend-2bj9.onrender.com//order", {
+    const response = await fetch("https://backend-2bj9.onrender.com/order", {
       method: "POST",
       headers: {
         "Content-type": "application/json",
@@ -155,7 +155,7 @@ function Cartpage() {
 
         console.log(paymentData);
 
-        await axios.post("https://backend-2bj9.onrender.com//payment", paymentData).then(res=>console.log(res.data))
+        await axios.post("https://backend-2bj9.onrender.com/payment", paymentData).then(res=>console.log(res.data))
 
         // Navigate to orders page
         window.location.href = "/order";

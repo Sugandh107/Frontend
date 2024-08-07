@@ -16,7 +16,7 @@ function CheckoutForm({ price }) {
 
     if (price < 0.5) {
       // Handle the case where the price is too low for a payment intent
-      axios.post('https://backend-2bj9.onrender.com//create-setup-intent')
+      axios.post('https://backend-2bj9.onrender.com/create-setup-intent')
         .then(res => {
           setClientSecret(res.data.clientSecret);
         })
@@ -24,7 +24,7 @@ function CheckoutForm({ price }) {
           console.error("Error creating setup intent:", error);
         });
     } else {
-      axios.post('https://backend-2bj9.onrender.com//create-payment-intent', { price, description })
+      axios.post('https://backend-2bj9.onrender.com/create-payment-intent', { price, description })
         .then(res => {
           setClientSecret(res.data.clientSecret);
         })

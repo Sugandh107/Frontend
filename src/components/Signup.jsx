@@ -32,7 +32,7 @@ function Signup() {
               email: email,
               photoURL:"https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
             };
-            axios.post("https://backend-2bj9.onrender.com//user", userInfo)
+            axios.post("https://backend-2bj9.onrender.com/user", userInfo)
             .then((response) => {
               // console.log(response);
               toast.success("Account creation successful!");
@@ -58,7 +58,7 @@ function Signup() {
           name: result?.user?.displayName,
           email: result?.user?.email,
         };
-        axios.post("https://backend-2bj9.onrender.com//user", userInfo)
+        axios.post("https://backend-2bj9.onrender.com/user", userInfo)
         .then((response) => {
           // console.log(response);
           toast.success("Account creation successfull");

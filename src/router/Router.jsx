@@ -86,7 +86,7 @@ const router = createBrowserRouter([
       },{
         path:'update-menu/:id',
         element:<UpdateMenu/>,
-        loader:({params})=>fetch(`https://backend-2bj9.onrender.com//menu/${params.id}`)
+        loader:({params})=>fetch(`https://backend-2bj9.onrender.com/menu/${params.id}`)
       }
     ]
     } 

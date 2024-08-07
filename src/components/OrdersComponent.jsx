@@ -65,7 +65,7 @@ const OrdersComponent = ({ email }) => {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const response = await fetch("https://backend-2bj9.onrender.com//payment", {
+        const response = await fetch("https://backend-2bj9.onrender.com/payment", {
           headers: {
             "Content-Type": "application/json",
           },
