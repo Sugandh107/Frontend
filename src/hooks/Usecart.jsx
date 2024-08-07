@@ -12,7 +12,7 @@ function Usecart() {
     const { refetch,data:carts=[]} = useQuery({
         queryKey: ['cart',user?.email],
         queryFn: async() =>{
-         const res= await fetch(`http://localhost:3000/cart?email=${user?.email}`)
+         const res= await fetch(`https://backend-2bj9.onrender.com//cart?email=${user?.email}`)
             return res.json()
           }
       })

@@ -18,7 +18,7 @@ const Cards = ({ item }) => {
     if (user && user.email) {
       const cartItem = { menuItemId: _id, name, quantity: 1, image, price, email: user.email };
 
-      axios.post('http://localhost:3000/cart', cartItem)
+      axios.post('https://backend-2bj9.onrender.com//cart', cartItem)
         .then((response) => {
           if (response) {
             Swal.fire({

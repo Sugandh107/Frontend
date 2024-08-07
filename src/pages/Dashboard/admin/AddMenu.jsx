@@ -50,7 +50,7 @@ const currentDateTime = `${year}${month}${day}${hours}${minutes}${seconds}`;
       };
 
       console.log(menuItem);
-      const postMenuItem = axios.post('http://localhost:3000/menu', menuItem);
+      const postMenuItem = axios.post('https://backend-2bj9.onrender.com//menu', menuItem);
       if(postMenuItem){
         reset()
        toast.success("Item Added To Menu")

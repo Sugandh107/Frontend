@@ -13,7 +13,7 @@ const Dashboard = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const res = await axios.get("http://localhost:3000/adminstat");
+        const res = await axios.get("https://backend-2bj9.onrender.com//adminstat");
         setDetails(res.data);
         // console.log(details.use);
       } catch (err) {

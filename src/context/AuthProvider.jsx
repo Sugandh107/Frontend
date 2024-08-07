@@ -61,7 +61,7 @@ function AuthProvider({ children }) {
       setUser(currentUser);
       if(currentUser){
         const userInfo ={email: currentUser.email}
-        axios.post('http://localhost:3000/jwt', userInfo)
+        axios.post('https://backend-2bj9.onrender.com//jwt', userInfo)
           .then( (response) => {
             // console.log(response.data.token);
             if(response.data.token){

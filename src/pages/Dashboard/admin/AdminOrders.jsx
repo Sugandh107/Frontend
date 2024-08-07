@@ -12,7 +12,7 @@ const AdminOrdersComponent = () => {
 
   const fetchOrders = async () => {
     try {
-      const response = await fetch("http://localhost:3000/payment", {
+      const response = await fetch("https://backend-2bj9.onrender.com//payment", {
         headers: {
           "Content-Type": "application/json",
         },
@@ -60,7 +60,7 @@ const AdminOrdersComponent = () => {
   const handleConfirm = async (item) => {
     console.log(item);
     await axios
-      .patch(`http://localhost:3000/payment/${item._id}`)
+      .patch(`https://backend-2bj9.onrender.com//payment/${item._id}`)
       .then((res) => {
         console.log(res.data);
         fetchOrders()
