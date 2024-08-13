@@ -49,7 +49,7 @@ const Cards = ({ item }) => {
   return (
     
       <div className="card shadow-xl relative mr-5 md:my-5 hover:shadow-2xl transition-shadow duration-300">
-        <Link to={`/menu/${item._id}`}>
+       
           <figure className="flex justify-center items-center p-4 transition-transform transform hover:scale-105 duration-300">
             <img
               src={item.image}
@@ -57,11 +57,8 @@ const Cards = ({ item }) => {
               className="hover:scale-105 transition-all duration-300 md:h-48 h-36 object-cover rounded-lg"
             />
           </figure>
-        </Link>
         <div className="card-body">
-          <Link to={`/menu/${item._id}`}>
             <h2 className="card-title text-lg font-bold mb-2">{item.name}</h2>
-          </Link>
           <p className="text-gray-600 text-sm mb-4">{recipe}</p>
           <div className="card-actions justify-between items-center mt-2">
             <h5 className="font-semibold">
